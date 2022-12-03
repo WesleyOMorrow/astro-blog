@@ -13,7 +13,86 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
 	<body>
 		<Header title={SITE_TITLE} />
 		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
+			<div
+			class="float-right rounded-full shadow-md shadow-neutral-600 mr-10"
+		  	>
+			<img class="rounded-full h-auto max-w-[120px]" src="/avatar_xiang_li.png" />
+		  	</div>
+
+			<h2 
+			class="text-lg font-bold mb-6 underline underline-offset-8 decoration-4 decoration-orange-900"
+        	>
+          	Bio.
+        	</h2>
+			<p> 
+				<strong>Xiang Li</strong>, is a <span class="text-orange-900 font-bold">Master's student</span>  at the University of Amsterdam, where he will graduated in 2023.
+			</p>
+			<p>
+				He defines himself as an interdisciplinary and self-driven learner. In addition to his academic degrees in statistics, natural science and computer science, he has passed the <span class="text-orange-900 font-bold">CFA level 1</span> exam, which brought him insights into the financial industry.
+			</p>
+
+			<p>
+				With expertise in <span class="text-orange-900 font-bold">data science</span> and <span class="text-orange-900 font-bold">algorithms</span>, he is looking for opportunities to start his career as a software engineer and be involved in the development of world-changing products.
+			</p>
+
+			<p>
+				At the moment, he is most interested in the Crypto and Web 3.0, where he sees decentralization as the future.
+			</p>
+
+			<div class="hidden lg:block">
+				<h2
+				  class="text-lg font-bold mb-6 underline underline-offset-8 decoration-4 decoration-orange-900"
+				>
+				  Edu.
+				</h2>
+				<table class="table-auto shadow-none text-base">
+				  <tbody>
+					<tr>
+					  <td>2020 - </td>
+					  <td><strong>MSc</strong> in Computational Science</td>
+					  <td>University of Amsterdam</td>
+					</tr>
+					<tr>
+					  <td>2014 - 2019</td>
+					  <td><strong>BSc</strong> in Statistics / Ecology (double major)</td>
+					  <td>Sun Yat-sen University</td>
+					</tr>
+				  </tbody>
+				</table>
+			</div>
+
+			<div class="hidden lg:block">
+				<h2
+				  class="text-lg font-bold mb-6 underline underline-offset-8 decoration-4 decoration-orange-900"
+				>
+				  Intern.
+				</h2>
+
+				<table class="table-auto shadow-none text-base">
+				  <tbody>
+					<tr>
+					  <td>Jan 2022 - July 2022</td>
+					  <td>Data Science Intern</td>
+					  <td>Janssen Biologics B.V</td>
+					</tr>
+					<tr>
+					  <td>Sep 2019 - Nov 2019</td>
+					  <td>Risk Consulting Intern</td>
+					  <td>KPMG Advisory</td>
+					</tr>
+				  </tbody>
+				</table>
+			</div>
+
+			<h2>Contacts</h2>
+			<ul>
+				<li>E-mail: xmy9602 [at] gmail [dot] com </li>
+			</ul>
+
+			<!--
+			<h2>
+				Template
+			</h2>
 			<p>
 				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This
 				template serves as a lightweight, minimally-styled starting point for anyone looking to build
@@ -44,6 +123,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
 					>astro-blog-template
 				</a> by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
 			</p>
+			-->
 		</main>
 		<Footer />
 	</body>

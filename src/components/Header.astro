@@ -1,18 +1,24 @@
 ---
 import HeaderLink from './HeaderLink.astro';
 import { SITE_TITLE } from '../config';
+import { CV_PATH} from '../config';
 ---
 
 <header>
-	<h2>
+	<h1 class = "font-bold text-lg">
 		{SITE_TITLE}
-	</h2>
+	</h1>
 	<nav>
 		<HeaderLink href="/">Home</HeaderLink>
-		<HeaderLink href="/blog">Blog</HeaderLink>
+		<HeaderLink href="/cv.pdf">CurriculumVitae</HeaderLink>
+		<HeaderLink href="https://www.linkedin.com/in/xiang-l-77536a123/">LinkedIn</HeaderLink>
+		<!--
+		<HeaderLink href="/resume">Resume</HeaderLink>
+		<HeaderLink href="/posts">Projects</HeaderLink>
 		<HeaderLink href="/about">About</HeaderLink>
 		<HeaderLink href="https://twitter.com/astrodotbuild" target="_blank">Twitter</HeaderLink>
 		<HeaderLink href="https://github.com/withastro/astro" target="_blank">GitHub</HeaderLink>
+		> -->
 	</nav>
 </header>
 <style>
